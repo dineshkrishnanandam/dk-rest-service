@@ -32,7 +32,7 @@ public class StudentController {
 		Student student4 = new Student("Kavin", "5023", "83");
 		Student student5 = new Student("Nila", "5046", "13");
 
-		ArrayList<Student> studentList = new ArrayList<Student>();
+		ArrayList<Student> studentList = new ArrayList<>();
 		studentList.add(student1);
 		studentList.add(student2);
 		studentList.add(student3);

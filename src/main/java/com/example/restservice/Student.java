@@ -1,10 +1,11 @@
 package com.example.restservice;
 
 public class Student {
-
-	private String name;
+	
 	private String rollNumber;
-	private String  age;
+	private String name;
+
+	private String age;
 
 	public Student() {
 		super();
@@ -36,12 +37,9 @@ public class Student {
 	public String getAge() {
 		return age;
 	}
-	
 
 	public void setAge(String age) {
 		this.age = age;
 	}
-
-	
 
 }
